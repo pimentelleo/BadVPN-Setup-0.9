@@ -27,7 +27,7 @@ if [[ "$resposta" = 's' ]]; then
 	echo "A instalação pode demorar bastante... seja paciente!"
 	sleep 3
 	apt-get update -y
-	apt-get install screen wget gcc build-essential g++ make -y
+	apt-get install screen wget gcc build-essential g++ make cmake -y
 	wget http://www.cmake.org/files/v2.8/cmake-2.8.12.tar.gz
 	tar xvzf cmake*.tar.gz
 	cd cmake*
