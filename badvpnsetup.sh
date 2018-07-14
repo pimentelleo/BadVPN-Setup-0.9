@@ -17,7 +17,7 @@ else
 tput setaf 2 ; tput bold ; echo ""
 echo "Este é um script que compila e instala automaticamente o programa"
 echo "BadVPN em servidores Debian e Ubuntu para ativar o encaminhamento UDP"
-echo "na porta 7300, usado por programas como HTTP Injector da Evozi."
+echo "na porta 7300, algo que falta para a comunicação de alguns serviços."
 echo "Permitindo assim a utilização do protocolo UDP para jogos online,"
 echo "chamadas VoIP e outras coisas interessantes."
 echo "" ; tput sgr0
